@@ -1,0 +1,30 @@
+@import 'navigation';
+
+
+.container-contend{
+  width: 100%;
+  height: 200rem;
+  
+  }
+
+  .flex{
+      display: flex;
+  }
+  main{
+    background-color: white;
+    width: 100%;
+    height: 100rem;
+  }
+  .box{
+    color:white;
+    position: absolute;
+    height: 20rem;
+    width: 40rem;
+    background: rgba(46, 46, 46, 0.432);
+    border-radius: 0.5%;
+    margin: -30rem -5rem -5rem 20rem;
+  }
+
+
+
+  

@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+    $text-menu: rgb(170, 165, 165);
+    $menu: #192636;
+    $menu-items:#2c425e;
+
+.namePerfil{
+    padding: 1rem;
+    background: $menu-items;
+    border-left: 0.3rem solid rgb(17, 240, 240);
+    color:aliceblue;
+    
+}
+
+.button-menu{
+    color:aliceblue;
+    background-color:#0f1c2c00;
+    padding: 1rem;
+    cursor:pointer;
+    border: none;
+
+   .button-menu:hover{
+    border-left: 0.3rem solid rgb(17, 240, 240);
+    transition: 1s;
+   }
+}
+
+
+#perfil{
+    margin: 2.8rem 1.5rem 1.5rem 1.5rem;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 70%;
+    
+}
+.container-menu{
+    display: flex;
+    height: 60rem;
+    background: rgb(25,38,54);
+    background: linear-gradient(90deg, rgba(25,38,54,1) 0%, rgba(0,0,0,1) 100%, rgba(25,38,48,1) 100%);
+    color: $text-menu;
+    font-family: sans-serif;
+}
+.active{
+    width: 12rem;
+     transition: 1s;
+}
+.disable{
+    width: 0;
+    transition: 1s;
+}
+.container{
+    width: 70%;
+    background: rgb(206, 206, 205);
+    
+}
+
+ul {
+    li{
+        list-style-type: none;
+        margin: 0rem 1rem 1rem 0rem;
+        width: 202px;
+        padding: 10px 10px 0px 30px;
+        font-size: 17px;
+        
+            i{
+                width: 30px;
+            }
+    }
+}
+
+ul {
+    li:hover {
+            border-left: 0.3rem solid rgb(17, 240, 240);
+            background-color: $menu-items;
+            width: 12.1rem;
+            padding: 20px;
+            cursor:pointer;
+            color:aliceblue;
+            transition: 0.5s;
+    }
+}
+.menu-top{
+    width: 100%;
+    background: rgb(25,38,54);
+    background: linear-gradient(90deg, rgba(25,38,54,1) 0%, rgba(0,0,0,1) 100%, rgba(25,38,48,1) 100%);
+    display: block;
+    .menu-bar{
+        cursor: pointer;
+        color:rgb(170, 165, 165);
+        
+    }
+}
+
+// @media screen and (max-width:
+// 1024px) {
+//  .container-menu {width: 0; transition: 1s; }
+    
+// }
+
